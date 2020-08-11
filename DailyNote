@@ -1,0 +1,36 @@
+information gain
+Entropy是接收的所有訊息中所包含的資訊的平均量，也可以解釋entropy是看資料的亂度或是資料的不確定性
+完全猜不到的情況，Entropy=1。
+
+cross-entropy
+https://medium.com/@chih.sheng.huang821/%E6%A9%9F%E5%99%A8-%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-%E5%9F%BA%E7%A4%8E%E4%BB%8B%E7%B4%B9-%E6%90%8D%E5%A4%B1%E5%87%BD%E6%95%B8-loss-function-2dcac5ebb6cb
+
+
+Huber loss是為了改善均方誤差損失函數(Squared loss function)對outlier的穩健性(robustness)而提出的
+δ是Huber loss的參數。
+第一眼看Huber loss都會覺得很複雜，但其實它就是squared loss和 absolute loss的合成。
+
+
+但focal loss是希望針對inliers(easy example)進行down-weighting，因為 focal loss希望的是在訓練過程中能盡量去訓練hard example，忽略那些easy example。
+原因在於focal loss是提出來在物件偵測用，但往往一張圖片找出的候選物件或是Anchor有絕大部分的比例是背景(background)而不是前景(foreground，也就是物件)，所以在計算loss會有極大的不平衡(extreme imbalance)的問題
+
+
+VIF(variance inflation factor) of ˆβj : v_All/ v_modelSelf
+variance
+standard error
+t-statistic
+z-statistic
+f-statistic
+p-value
+confidence interval
+prediction interval
+
+
+the z-statistic associated with β1 is equal to ˆ β1/SE( ˆ β1), and so a
+large (absolute) value of the z-statistic indicates evidence against the null
+hypothesis H0 : β1 = 0.
+
+LDA(Linear Discriminant Analysis)
+
+Regression: 
+classifer: logistic
