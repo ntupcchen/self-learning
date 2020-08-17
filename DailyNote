@@ -55,8 +55,19 @@ Bayesian information criterion
 adjusted r2: penalize number of features(n-p-1/n-1)
 
 principal component: Zi
-principal component score: raw data 轉換到z向量上的值
-Partial Least Squares(PLS): supervised PCR using idea like boosting 
+principal component score: raw dapython jupyter ta 轉換到z向量上的值
+Partial Least Squares(PLS): supervised PCR using idea like boosting
+
+regression spline: specifying a set of knots, producing a sequence of basis functions, and then using least squares to estimate the spline coefficients.
+degree-d spline: piecewise degree-d polynomial with continuity in derivatives up to degree d-1 at each knot.(0微, 1微, ..., d-1微 at knot x). 
+Natural spline:  required to be linear at the boundary
+add one truncated power basis function per knot.
+smoothing spline: roughness(二次微分 as penalty), a smoothing spline is simply a natural cubic spline with knots at every unique value of xi.
+Local regression: 如KNN,找出最近K點(span 0.2|0.7)， 予以weight based on distance(kernel smoother), fitted with least square regression.
+GAM(generalized additive models): fit by backfitting.
+
+prune: 1)reduced error pruning 2) cost complexity pruning???
+
 
 Regression: 
 classifer: logistic, LDA, QDA
@@ -66,4 +77,30 @@ caveat
 reiterate
 discriminant
 jargon
-
+Quadratic
+bootstrap
+substitute
+serves
+empirical
+criterion
+progressive
+rigorous
+omitted
+pinpoint
+subject to
+perpendicular
+chemometrics
+deterioration
+compel
+segregation
+basis
+piecewise crosswise lengthwise clockwise
+knot
+colleage
+isle
+truncated power basis
+objective
+adequate
+pragmatic
+roughness
+stratification
