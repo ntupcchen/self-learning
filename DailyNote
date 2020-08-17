@@ -67,6 +67,10 @@ Local regression: 如KNN,找出最近K點(span 0.2|0.7)， 予以weight based on
 GAM(generalized additive models): fit by backfitting.
 
 prune: 1)reduced error pruning 2) cost complexity pruning???
+Bagging:
+Random forest:  
+不會overfit over B
+
 
 
 Regression: 
